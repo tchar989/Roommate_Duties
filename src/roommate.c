@@ -29,7 +29,7 @@ int main(int argc, char** argv)
 	{
 		printf("%s", name[i%4]);
 		printf("%s", ": ");
-		printf("%s", duties[i%4]);
+		printf("%s", duties[i-week]);
 		printf("%c", '\n');
 	}
 	return 0;
